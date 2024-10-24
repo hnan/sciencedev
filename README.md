@@ -17,7 +17,7 @@
 `RUN npm config set registry https://registry.npmmirror.com`
 
 
-## docker镜像源的科学设置
+## docker镜像源的科学设置(Linux)
 docker官方镜像已经相当不稳定，处于不可用状态，如下设置境内源
 
 ```
@@ -36,7 +36,10 @@ vim /etc/docker/daemon.json
 
 `systemctl restart docker`
 
-## docker CentOS按照源
+## docker镜像源的科学设置(Mac)
+打开Docker Desktop客户端，点右上角设置图标，左侧菜单进入Docker Engine，编辑配置文件（见上面Linux配置）后点右下角应用重启
+
+## docker CentOS安装源
 Docker官方安装源（`https://download.docker.com`）已经无法访问
 `TODO`
 
