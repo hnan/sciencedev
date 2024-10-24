@@ -31,7 +31,14 @@ vim /etc/docker/daemon.json
     ]
 }
 ```
+
 重启docker服务
+
+`systemctl restart docker`
+
+## docker CentOS按照源
+Docker官方安装源（`https://download.docker.com`）已经无法访问
+`TODO`
 
 ## 科学部署
 
